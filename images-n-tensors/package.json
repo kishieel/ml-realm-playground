@@ -1,0 +1,20 @@
+{
+  "name": "images-n-tensors",
+  "module": "main-v1.ts",
+  "type": "module",
+  "scripts": {
+    "start:v1": "ts-node --esm main-v1.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.2",
+    "bun-types": "latest",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.11.0"
+  }
+}

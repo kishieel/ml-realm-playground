@@ -1,0 +1,18 @@
+{
+  "name": "simple-recomendations",
+  "module": "main-v1.ts",
+  "type": "module",
+  "scripts": {
+    "start:v1": "bun run main-v1.ts",
+    "start:v2": "bun run main-v2.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.11.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
