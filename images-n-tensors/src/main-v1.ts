@@ -6,16 +6,16 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const imagePath = path.join(__dirname, 'static', 'image.jpg');
-const grayscalePath = path.join(__dirname, 'dist', 'grayscale.jpg');
-const mirrorXPath = path.join(__dirname, 'dist', 'mirror-x.jpg');
-const mirrorYPath = path.join(__dirname, 'dist', 'mirror-y.jpg');
-const mirrorXYPath = path.join(__dirname, 'dist', 'mirror-xy.jpg');
-const resizedBilinearPath = path.join(__dirname, 'dist', 'resized-bilinear.jpg');
-const resizedNearestNeighborPath = path.join(__dirname, 'dist', 'resized-nearest-neighbor.jpg');
-const randomRGBPath = path.join(__dirname, 'dist', 'random-rgb.jpg');
-const randomGrayscalePath = path.join(__dirname, 'dist', 'random-grayscale.jpg');
-const gradientGrayscalePath = path.join(__dirname, 'dist', 'gradient-grayscale.jpg');
+const imagePath = path.join(__dirname, '..', 'static', 'image.jpg');
+const grayscalePath = path.join(__dirname, '..', 'dist', 'grayscale.jpg');
+const mirrorXPath = path.join(__dirname, '..', 'dist', 'mirror-x.jpg');
+const mirrorYPath = path.join(__dirname, '..', 'dist', 'mirror-y.jpg');
+const mirrorXYPath = path.join(__dirname, '..', 'dist', 'mirror-xy.jpg');
+const resizedBilinearPath = path.join(__dirname, '..', 'dist', 'resized-bilinear.jpg');
+const resizedNearestNeighborPath = path.join(__dirname, '..', 'dist', 'resized-nearest-neighbor.jpg');
+const randomRGBPath = path.join(__dirname, '..', 'dist', 'random-rgb.jpg');
+const randomGrayscalePath = path.join(__dirname, '..', 'dist', 'random-grayscale.jpg');
+const gradientGrayscalePath = path.join(__dirname, '..', 'dist', 'gradient-grayscale.jpg');
 
 const imageBuffer = fs.readFileSync(imagePath);
 

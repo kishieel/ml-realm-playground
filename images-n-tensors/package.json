@@ -3,7 +3,8 @@
   "module": "main-v1.ts",
   "type": "module",
   "scripts": {
-    "start:v1": "ts-node --esm src/main-v1.ts"
+    "start:v1": "ts-node --esm src/main-v1.ts",
+    "start:v2": "ts-node --esm src/main-v2.ts"
   },
   "devDependencies": {
     "@types/node": "20.6.2",
