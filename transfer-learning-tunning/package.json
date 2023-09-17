@@ -1,0 +1,18 @@
+{
+  "name": "letters-recognition",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/main.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --esm src/main.ts"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "4.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
